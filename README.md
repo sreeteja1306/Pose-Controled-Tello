@@ -1,4 +1,4 @@
-# Bodypose_controlled_tello
+# Bodypose controlled tello
  Control Tello using MediaPipe's Body Pose 
 
 ## Creating Own Pose Trainng dataset

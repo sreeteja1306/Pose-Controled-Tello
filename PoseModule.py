@@ -10,7 +10,7 @@ mp_pose = mp.solutions.pose
 
 # For webcam input:
 #cap = cv2.VideoCapture(0)
-vidcap = cv2.VideoCapture("C:\\Users\\DST\\Desktop\\Autonomous_Tello_Drone-master\\pose_controlled_tello\\my_poses\\test10.mp4")
+vidcap = cv2.VideoCapture(0)
 success,image = vidcap.read()
 loaded_knn_model = pickle.load(open('poses_knn', 'rb'))
 with mp_pose.Pose(
